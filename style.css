@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: url(/img/swim.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 50%;
+  height: 250px;
+  /* background-color: #fff; */
+  border-radius: 30px;
+  box-shadow: 0 0 5px;
+}
+#timer {
+  width: 100%;
+  font-size: 80px;
+  margin: 0px auto;
+  text-align: center;
+  padding: 35px;
+  color: #fff;
+}
+.buttons {
+  text-align: center;
+}
+button {
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+}
+button i {
+  font-size: 2rem;
+  padding: 10px;
+  color: #fff;
+  width: 50px;
+}
+
+#play {
+  background-color: green;
+}
+#pause {
+  background-color: orange;
+}
+#reset {
+  background-color: red;
+}
